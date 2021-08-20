@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+ENG: Video Player Demo in HTML 5
+AZE: HTML 5 üçün Video Görüntü Oynadıcı
+© code by S-n Amil 20.08.2021  https://github.com/sn-amil
+-->
+	 
+<html lang=az-Latn-AZ>
+
+<head>
+<title>HTML Video Player (Demo) by S-n</title>
+
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="HTML Video Player Demo by S-n">
+<meta name="keywords" content="HTML Video Oynadıcı, Video Pleyer, code by S-n" >
+<meta name="author" content="S-n Amil" >
+<meta name="viwport" content="width-device-width", "initial-scale=1.0" >
+
+</head>
+
+<body bgcolor=#212121>
+
+<div style="text-align:center"> 
+<h1 style="color:red" title="code created by S-n">HTML Video Oynadıcı (sadə)</h1>
+  <video id="video1" width="520" height="360" controls>
+    <source src="video.mp4" type="video/mp4">
+    Brauzeriniz köhnədir. Sizin bu İnternet Brauzer proqramınız video oynadıcını dəstəkləmir. Proqramı ən son versiya ilə yeniləyin ya da güncəl versiya İnternet Brauzer proqramı yükləyin.
+  </video>
+  <br>
+  <button onclick="playPause()">Oynat/Dur</button> 
+  <button onclick="makeSmall()">Kiçik</button>
+  <button onclick="makeNormal()">Normal</button>
+  <button onclick="makeBig()">Böyük</button>
+  <br>
+  <p style="color:#aaaaaa">© code by S-n Amil 20.08.2021</p>
+  <br>
+
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 720; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 520; 
+} 
+</script> 
+
+</body> 
+</html>
