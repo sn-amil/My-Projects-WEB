@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--
+ENG: Forum Register Page
+AZE: Forum Qeydiyyat Səhifəsi
+© code by S-n Amil 17.07.2021  https://github.com/sn-amil
+-->
+	 
+<html lang=az-Latn-AZ>
+<head>
+<title>Forum Qeydiyyatı by S-n</title>
+
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Forum Qeydiyyat Səhifəsi">
+<meta name="keywords" content="Forum Register HTML Page, code by S-n" >
+<meta name="author" content="S-n Amil" >
+<meta name="viwport" content="width-device-width", "initial-scale=1.0" >
+
+<style>
+body{
+background-image: url('background.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+
+#cins_id{
+background-color:blue;
+color:white;
+}
+
+#yas{
+background-color:black;
+color:white;
+}
+
+.label{
+background-color:#ffff33;
+color:black;
+}
+
+.label1{
+background-color:lightgrey;
+color:black;
+}
+
+.label2{
+background-color:grey;
+color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Formu Doldur</h1>
+<p style="color:grey;">© code by S-n Amil 17.07.2021</p>
+
+<form autocomplete="on" method="post" target="_blank">
+<fieldset>
+<legend style="color:red;"><b>Qeydiyyat:</b></legend>
+<br>
+<label class="label" for="axtaris">Axtarış:</label> <br>
+<input type="search" id="axtaris" name="axtaris" value="&#x270E; (forumda axtar)">
+<input type="button" id="axtar" name="axtar" value="Axtar"> <br>
+</form>
+
+<br>
+
+<label class="label" for="username">Tam Adın:</label><br>
+<input type="text" id="istifadeci_adi" name="username" placeholder="Filankəsli Filankəs" required autofocus>
+<input type="submit" id="yoxla" value="yoxla"><br><br>
+
+<label class="label" for="email"> Mail: </label> <br>
+<input type="email" id="email" name="email" placeholder="adiniz@mail.com" required> <br><br>
+<label class="label" for="sifre"> Şifrə: </label> <br>
+<input type="password" id="sifre" name="sifrə" placeholder="(şifrə)" required>  <br> <br>
+<label class="label" for="cins">Cins: </label>
+
+<select id="cins_id" name="cinsiyyet">
+<option value="kisi">Kişi</option>
+<option value="qadin">Qadın</option>
+<option value="cins_secilmeyib" selected>(boş)</option>
+</select>
+<br>
+<br>
+
+<label class="label" for="telefon_nomresi">Telefon Nömrəsi:</label> <br>
+<input type="tel" id="telefon_nomresi" name="telefon_nomresi" placeholder="(055)123 45 56" required>
+
+<br>
+<br>
+
+<label class="label" for=""> Profil Şəkli Yüklə: </label> <br>
+<input type="file" id="profil_sekli" name="profil_sekli"><br>
+<br>
+<br>
+
+<label class="label" for="dogum_gunu"> Doğum Günü:</label><br>
+<input type="date" id="dogum_gunu" name="dogum_gunu" min="2003-01-01" max="2021-12-31" required> <br>
+
+<br>
+<br>
+<label class="label" for="yas"> Boyunuz:</label> <br>
+
+<select id="yas" name="yas" size="3" multiple>
+<option value="yas">150+</option>
+<option value="yas">155+</option>
+<option value="yas">160+</option>
+<option value="yas">165+</option>
+<option value="yas">170+</option>
+<option value="yas">175+</option>
+<option value="yas">180+</option>
+<option value="yas">185+</option>
+<option value="yas">190+</option>
+<option value="yas">195+</option>
+
+</select>
+<br>
+<br>
+<label class="label" for="ozun_haqqinda">Özünüz Haqqında:</label> <br>
+
+<textarea name="ozun_haqqinda" rows="2" cols="40">(özünüz haqqında bir neçə kəlimə yazın)</textarea>
+
+<br>
+<br>
+<label class="label" for="dil_biliyiniz_label">Təhsil:</label> <br>
+<input list="dil_biliyiniz">
+<datalist id="dil_biliyiniz"> <!--ID ilə İnput eyni olmalıdır-->
+<option value="Ən Yüksək (Ali/PhD)">
+<option value="Yüksək (Tam Ali/Magistr)">
+<option value="Yüksək (Ali/ Bakalvr)">
+<option value="Orta İxtisas (Peşə/Kollec)">
+<option value="tam orta məktəb (11 illik)">
+<option value="orta (9 illik)">
+</datalist>
+<br>
+<br>
+
+<label class="label" for="sevdiyiniz_reng">Sevdiyiniz Rəng:</label>
+<input type="color" id="sevdiyiniz_reng" name="reng" value="#ff0000">
+
+<br>
+<br>
+
+<label class="label" for="bildiyin_dil">Dil Bilikləri:</label> <br>
+<br>
+<label class="label1" for="dil">Azərbaycan:</label> <br>
+<input type="range" id="aze" value="100" step="10"> 100% <br>
+<label class="label1" for="dil">Türk:</label> <br>
+<input type="range" id="turk" value="98" step="10"> 98% <br>
+<label class="label1" for="dil">İngilis:</label> <br>
+<input type="range" id="eng" value="70" step="10"> 70% <br>
+<label class="label1" for="dil">Rus:</label> <br>
+<input type="range" id="rus" value="10" step="10"> 10% <br>
+<br>
+<br>
+
+<label class="label" for="maraqlar">Aşağıdakılardan nəyə marağınız var: </label> <br> <br>
+
+<input type="radio" id="maraqlar" name="maraq_1" value="maraq_1"> 
+<label class="label2" for="maraq_1">Kino/ Film</label> <br>
+
+<input type="radio" id="maraqlar" name="maraq_2" value="maraq_2"> 
+<label class="label2" for="maraq_2">Həfə içi Yürüş/ Gəzinti</label> <br>
+
+<input type="radio" id="maraqlar" name="maraq_3" value="maraq_3"> 
+<label class="label2" for="maraq_3">Bol yemək yemək</label> <br>
+
+<input type="radio" id="maraqlar" name="maraq_4" value="maraq_4"> 
+<label class="label2" for="maraq_4">Çox yatmaq</label>
+
+<b>/ </b>
+
+<input type="radio" id="maraqlar" name="maraq_4" value="maraq_5" checked> 
+<label class="label2" for="maraq_5">Erkən durmaq</label> <br>
+
+<br>
+<br>
+
+<label class="label" for="bacarıqlar">Bacarıqlar: </label> <br> <br>
+<input type="checkbox" id="bacariq" name="bacariq" value="bacariq" checked> 
+<label class="label2" for="bacariq_4">Çalışqan Olmaq</label> <br>
+
+<input type="checkbox" id="bacariq_1" name="bacariq_1" value="bacariq_1"> 
+<label class="label2" for="bacariq_1">Rəsm Çəkmək</label> <br>
+
+<input type="checkbox" id="bacariq_2" name="bacariq_2" value="bacariq_2"> 
+<label class="label2" for="bacariq_2">Xarici dildə sərbəst danışmaq</label> <br>
+
+<input type="checkbox" id="bacariq_3" name="bacariq_3" value="bacariq_3"> 
+<label class="label2" for="bacariq_3">Komanda ilə birgə çalışmaq</label> <br>
+
+<input type="checkbox" id="bacariq_4" name="bacariq_4" value="bacariq_4"> 
+<label class="label2" for="bacariq_4">Təcrübəni Bölüşmək</label>
+
+<br>
+<br>
+<label class="label" for="ise_baslama_tarixi">Hansı Aydan İşə Başlamaq İstərdiniz</label><br>
+<input type="month" id="ise_baslama_tarixi" name="ise_baslama_tarixi" > 
+
+<br>
+<br>
+<label class="label" for="maas">Maaş:</label><br>
+<input type="number" id="maas" name="maas" min="500" max="10000" step="100" value="500" required> 
+<br>
+<br>
+<label class="label" for="gorus_saati">Görüş Saatı:</label><br>
+<input type="time" id="gorus_saati" name="gorus_saati" value="12:00"> 
+<br>
+<br>
+
+<input type="button" onclick="alert('Bizim daxili qaydalarımız ilə siz artıq tanış oldunuz')" value="ŞƏRTLƏRİ OXU">
+<br>
+<br>
+<label class="label" for="sertler">Şərtləri Qəbul edirəm:</label> <br>
+<input type="radio" id="raziyam" name="qebullanma_secimi" value="secim_1"> 
+<label class="label2" for="raziyam">Razıyam </label> 
+<input type="radio" id="razi_deyilem" name="qebullanma_secimi" value="secim_2">
+<label class="label2" for="raziyam">Razı Deyiləm</label>
+<br>
+<br>
+
+<input type="submit" value="Göndər Düyməsi" formnovalidate="formnovalidate" formaction="action_page2.php" formenctype="multipart/form-data">
+<input type="reset" value="Ayarları Sıfırla">
+<button type="button" onclick="alert('Bilgilər yadda saxlanıldı!')">Yadda Saxla!</button>
+<br>
+<br>
+
+</fieldset>
+</form>
+
+</body>
+
+<!--© code by S-n Amil 17.07.2021-->
+</html>
