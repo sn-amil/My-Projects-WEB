@@ -1,5 +1,7 @@
-## ✔️ ℹ️ My Custom WEB Projects.
+## ⚠️ Description
+**My Custom Web Projects & Files..**
 
-> ● Author: Amil Atakishisoy (S-n Amil)<br>
-> ● Repo Date: 20.08.2021<br>
-> ● Programming Languages: `HTML`, `HTML 5`, `CSS`, `CSS 3`, `JavaScript`
+> 📅 **Repo Date:** 20.08.2021 <br>
+> ©️ **Author:** S-n Amil <br>
+> 🔤 **Interface Languages:** `English`, `Azerbaijani` <br>
+> ⌨️ **Programming Languages:** `HTML`, `CSS`, `JavaScript` <br>
