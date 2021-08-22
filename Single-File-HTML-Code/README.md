@@ -1,9 +1,9 @@
 ## ℹ️ About
 
-> 📅 Date: 19.08.2021
-> ©️ Author: S-n Amil
-> 🔤 Interface Languages: English, Azerbaijani
-> ⌨️ Programming Languages: HTML, CSS, JavaScript
+> 📅 Date: 19.08.2021 <br>
+> ©️ Author: S-n Amil <br>
+> 🔤 Interface Languages: `English`, `Azerbaijani` <br>
+> ⌨️ Programming Languages: `HTML`, `CSS`, `JavaScript` <br>
 <hr>
 
-All Code in Single File. File type: HTML
+**All Code in Single File. File type: HTML**
