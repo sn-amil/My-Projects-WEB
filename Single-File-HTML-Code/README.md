@@ -5,4 +5,3 @@
 > ©️ **Author:** S-n Amil <br>
 > 🔤 **Interface Languages:** `English`, `Azerbaijani` <br>
 > ⌨️ **Programming Languages:** `HTML`, `CSS`, `JavaScript` <br>
-<hr>
