@@ -1,5 +1,5 @@
 ## Description
-**All Code in Single File. File type: HTML**
+**This files is HTML Web Pages. All Code in Single File.**
 
 > 📅 **Date:** 19.08.2021 <br>
 > ©️ **Author:** S-n Amil <br>
