@@ -1,8 +1,8 @@
 ## ⚠️ Description
 **Forum Register Page (Qeydiyyat Səhifəsi)**
 
-> 📅 **Date:** 19.08.2021 <br>
 > ©️ **Author:** S-n Amil <br>
+> 📅 **Date:** 19.08.2021 <br>
 > 🔤 **Interface Languages:** `English`, `Azerbaijani` <br>
 > ⌨️ **Programming Languages:** `HTML`, `CSS`, `JavaScript` <br>
 
