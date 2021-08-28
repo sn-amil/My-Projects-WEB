@@ -4,7 +4,7 @@
 > 📅 **Date:** 20.08.2021 <br>
 > ©️ **Author:** S-n Amil <br>
 > 🔤 **Interface Languages:** `English`, `Azerbaijani` <br>
-> ⌨️ **Programming Languages:** `HTML`, `JavaScript` <br>
+> 🖥️ **Programming Languages:** `HTML`, `JavaScript` <br>
 
 
 ## Screenshot:
